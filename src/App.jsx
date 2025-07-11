@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import CockTail from './components/CockTail';
 import About from './components/About';
 import Art from './components/Art';
+import Menu from './components/Menu';
+import Contact from './components/Contact';
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -16,6 +18,8 @@ const App = () => {
             <CockTail />
             <About/>
             <Art />
+            <Menu />
+            <Contact />
         </main>
     )
 }
